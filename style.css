@@ -1,0 +1,49 @@
+/* Style Sheet */
+
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header {
+	background-color: #151515;
+}
+/* Clear fix solution */
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#logo {
+	background: url(images/logo_green.jpg) no-repeat;
+	height: 70px;
+	width: 280px;
+	float: left;
+	text-indent: -9999px;
+}
+header nav {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+}
+header nav h2 {
+	height: 0;
+	text-indent: -9999px;
+}
+header nav li {
+	float: left;
+	margin-left: 20px;
+
+}
+header nav span {
+	color: green;
+	margin-left: 20px;
+}
+/* banner */
