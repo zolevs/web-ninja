@@ -1,4 +1,8 @@
 /* Style Sheet */
+body {
+	font-family: arial;
+}
+
 
 .wrapper {
 	width: 100%;
@@ -31,7 +35,6 @@ header nav {
 header nav a {
 	color: #fff;
 	text-decoration: none;
-	font-family: arial;
 }
 header nav h2 {
 	height: 0;
@@ -47,3 +50,189 @@ header nav span {
 	margin-left: 20px;
 }
 /* banner */
+
+#lead_banner img {
+	width: 100%;
+}
+#lead_banner {
+	max-height: 440px;
+	overflow: hidden;
+	position: relative;
+}
+.banner-overlay {
+	position: absolute;
+	top:20%;
+	width: 100%;
+}
+.banner-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 72px;
+	text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+#lead_banner p{
+	color: #fff;
+	font-size: 24px;
+	max-width: 600px;
+	margin-top: 15px;
+	text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+#lead_banner a {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12b51a+0,8db78f+100 */
+	background: #12b51a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #12b51a 0%, #8db78f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #12b51a 0%,#8db78f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #12b51a 0%,#8db78f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b51a', endColorstr='#8db78f',GradientType=0 ); /* IE6-9 */
+
+
+	color: #fff;
+	display: block;
+	width: 200px;
+	font-size: 18px;
+	text-align: center;
+	padding: 15px 0;
+	text-decoration: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+
+/* section services */
+
+section {
+	margin: 20px 0 60px;
+}
+section#point-of-sale ul{
+	list-style-type: none;
+}
+section:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#point-of-sale h2 {
+	height: 0;
+	text-indent: -9999px;
+}
+#point-of-sale li {
+	float: left;
+	width: 32%;
+}
+#point-of-sale li:nth-child(2) {
+	margin: 0 2%;
+}
+#point-of-sale li h3{
+	text-align: center;
+	color: #888;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#point-of-sale p{
+	text-align: center;
+	width: 80%;
+	margin: 0 10%; /* ovde je 10% zbog gornje sirine od 80% */
+	font-size: 14px;
+	color: #888;
+	line-height: 1.4em;
+}
+#clients, #contact {
+	border-top: 1px solid #ccc;
+	padding-top: 30px;
+
+}
+#clients h2, #contact h2 {
+	background-color: green;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	width: 250px;
+	text-transform: uppercase;
+	position: relative;
+	top: -45px;
+	margin: 0 auto;
+	border-left: 16px solid #fff;
+	border-right: 16px solid #fff;
+}
+#clients img {
+	float: left;
+	width: 30%;
+}
+#clients blockquote {
+	float: right;
+	width: 66%;
+	margin-top: 20px;
+	text-align: center;
+	font-style: italic;
+	line-height: 1.6em;
+	color: #888;
+	padding-top: 50px;
+	background: url(images/quotes.jpg) no-repeat top left; /* ovo je default top left */
+}
+#contact-methods {
+	float: left;
+}
+#contact-methods li {
+	list-style-type: none;
+	color: #888;
+	line-height: 30px;
+	clear: left;
+}
+#contact-methods li:before {
+	content: "";
+	display: block;
+	width: 36px;
+	height: 38px;
+	float: left;
+	margin-right: 10px;
+	background: url(images/logo_sprite.png) no-repeat;
+}
+#contact-methods li:nth-child(1):before {
+	background-position: -158px 0;
+}
+#contact-methods li:nth-child(2):before {
+	background-position:  -198px 0;
+}
+#contact-methods li:nth-child(3):before {
+	background-position: -235px 0;
+}
+#contact img {
+	float: right;
+	border: 1px solid #999;
+}
+
+#social-nav {
+	clear: both;
+	position: relative;
+	top: -30px;
+}
+#social-nav li {
+	list-style-type: none;
+	float: left;
+	width: 36px;
+	height: 38px;
+	background: url(images/logo_sprite.png) no-repeat;
+	text-indent: -9999px;
+
+}
+
+#social-nav li:nth-child(1) {
+	background-position: 0 0;
+}
+#social-nav li:nth-child(2){
+	background-position: -38px 0;
+}
+#social-nav li:nth-child(3){
+	background-position: -76px 0;
+}
+#social-nav li:nth-child(4){
+	background-position: -114px 0;
+}
+#social-nav a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
