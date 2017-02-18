@@ -29,7 +29,7 @@ p{
 	width: 100%;
 }
 #pop-up input{
-	background-color: red;
+	/*background-color: red;*/
 	padding: 10px;
 	border: 0;
 	border-radius: 10px 0 0 10px;
@@ -55,4 +55,14 @@ button {
 	width: 22px;
 	height: 22px;
 	border-radius: 11px;
+}
+#pop-up {
+	top: -400px;
+	animation: drop .5s ease forwards;
+}
+@keyframes drop {
+	0% { opacity: 0; }
+	70% { transform: translateY(700px); }
+	100% { transform: translateY(650px);
+			opacity: 1;}
 }
