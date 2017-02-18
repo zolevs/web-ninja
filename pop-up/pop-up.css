@@ -1,0 +1,58 @@
+/* CSS for pop up */
+body {
+	background-color: #ad99aa;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+h1 {
+	font-size: 44px;
+	margin: 10px 0;
+}
+p{
+	margin-bottom: 40px;
+}
+#pop-up {
+	position: relative;
+	top: 200px;
+	width: 500px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	text-align: center;
+}
+#pop-up .container {
+	box-sizing: border-box;
+	background-color: #f0e4d4;
+	padding: 30px;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+#pop-up input{
+	background-color: red;
+	padding: 10px;
+	border: 0;
+	border-radius: 10px 0 0 10px;
+	border: 1px solid #333;
+	font-size: 18px;
+}
+button {
+	padding: 10px;
+	border: 0;
+	color: #fff;
+	background-color: #333;
+	margin-left: -5px;
+	border-radius: 0px 10px 10px 0px;
+	border: 1px solid #333;
+	font-size: 18px;
+}
+.cross {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #555;
+	color: #ddd;
+	width: 22px;
+	height: 22px;
+	border-radius: 11px;
+}
