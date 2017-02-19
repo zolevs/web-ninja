@@ -1,0 +1,33 @@
+header{
+	padding: 10px 20px;
+	border-bottom: 1px solid #ddd;
+	background-color: #eee;
+}
+header:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.basket ul {
+	padding: 0;
+	margin-top: 40px;
+}
+.basket li {
+	display: inline-block;
+	list-style-type: none;
+	width: 30%;
+	margin: 30px 1.5%;
+	text-align: center;
+}
+.basket button {
+	border-radius: 10px;
+	cursor: pointer;
+}
+.basket header div {
+	float: right;
+	position: relative;
+	z-index: 1;
+}
+.basket header li {
+	float: left;
+}
